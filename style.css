@@ -237,3 +237,33 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+
+    .main-section {
+
+max-width: 550px;
+margin-left: 100px;
+margin-top: 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+
+      .main-section {
+
+max-width: 450px;
+margin-left: 100px;
+margin-top: 20px;
+
+}  
+
+@media screen and (max-width: 640px) {
+
+      .main-section {
+
+max-width: 600px;
+margin-left: 20px;
+margin-top: 20px;
+
+}
