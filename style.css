@@ -248,6 +248,15 @@ margin-top: 20px;
 
 }
 
+    .auth-image {
+
+      float: none;
+      width: 312px;
+      height: auto;
+
+}
+
+
 @media screen and (max-width: 768px) {
 
       .main-section {
@@ -256,7 +265,17 @@ max-width: 450px;
 margin-left: 100px;
 margin-top: 20px;
 
-}  
+}
+
+/*TRYING TO GET SIDEBAR TO SPAN THE SAME WIDTH AS MAIN SECTION WHILE KEEPING ITS FORM*/
+
+      .sidebar {
+
+max-width: 450px;
+margin-left: 100px;
+margin-top: 20px;
+
+}
 
 @media screen and (max-width: 640px) {
 
@@ -264,6 +283,15 @@ margin-top: 20px;
 
 max-width: 600px;
 margin-left: 20px;
+margin-top: 20px;
+
+}
+
+/*TRIED SETTING MINIMUM WIDTH AND MAX WIDTH, NOT SURE HOW TO GET SIDEBAR TO SPAN BOTTOM OF PAGE*/
+
+      .sidebar {
+
+margin-right: 150px;
 margin-top: 20px;
 
 }
